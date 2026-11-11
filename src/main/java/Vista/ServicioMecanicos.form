@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_DiagnosticoElectrico" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_Alineamiento" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_MantenimientoGeneral" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_Descripcion" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_Codigo" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_TiempoEstimado" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_PrecioBase" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_RevisonFrenos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_CambioAceite" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txt_Codigo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_Descripcion" max="32767" attributes="0"/>
+                          <Component id="txt_PrecioBase" max="32767" attributes="0"/>
+                          <Component id="txt_TiempoEstimado" pref="184" max="32767" attributes="0"/>
+                          <Component id="txt_RevisonFrenos" max="32767" attributes="0"/>
+                          <Component id="txt_CambioAceite" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="71" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btn_Consultar" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btn_Registrar" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_DiagnosticoElectrico" min="-2" pref="184" max="-2" attributes="0"/>
+                          <Component id="txt_Alineamiento" min="-2" pref="184" max="-2" attributes="0"/>
+                          <Component id="txt_Mantenimiento" min="-2" pref="184" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btn_Volver" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Codigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Codigo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Descripcion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Descripcion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_PrecioBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btn_Registrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lbl_PrecioBase" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_TiempoEstimado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_TiempoEstimado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lbl_CambioAceite" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="8" max="32767" attributes="0"/>
+                              <Component id="txt_CambioAceite" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btn_Consultar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="11" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_RevisonFrenos" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_RevisonFrenos" alignment="1" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_DiagnosticoElectrico" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_DiagnosticoElectrico" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txt_Alineamiento" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_Alineamiento" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt_Mantenimiento" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="lbl_MantenimientoGeneral" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btn_Volver" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_Codigo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Descripcion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descripcion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_PrecioBase">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Precio Base"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_TiempoEstimado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo Estimado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_RevisonFrenos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Revision de Frenos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_DiagnosticoElectrico">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diagnostico Electrico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Alineamiento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alineamiento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_MantenimientoGeneral">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mantenimiento General"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Codigo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Descripcion">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_PrecioBase">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_TiempoEstimado">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_TiempoEstimadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Volver">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volver"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Registrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Consultar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_RevisonFrenos">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_RevisonFrenosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_DiagnosticoElectrico">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Alineamiento">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Mantenimiento">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_CambioAceite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cambio Aceite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_CambioAceite">
+    </Component>
+  </SubComponents>
+</Form>
